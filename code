@@ -1,0 +1,11 @@
+import random 
+print("hello website")
+randoms = "jkdhfuouhnfciufwunUNFHIWCHFEWCWJWUCNNWIWUEKNU@#$%^&*(!)!" #we can change number of random variables we want give
+num=int(input("enter no of passwords;"))
+size=int(input("enter size of passwords;"))
+print("the generated passwords are:")
+for i in range(num):
+    passw =""
+    for i in range(size):
+        passw=passw+random.choice(randoms)
+    print(passw)
