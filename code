@@ -1,9 +1,9 @@
 import random 
-print("hello website")
+print("Welcome this code helps to generate random passwords")
 randoms = "jkdhfuouhnfciufwunUNFHIWCHFEWCWJWUCNNWIWUEKNU@#$%^&*(!)!" #we can change number of random variables we want give
-num=int(input("enter no of passwords;"))
-size=int(input("enter size of passwords;"))
-print("the generated passwords are:")
+num=int(input("Enter no of passwords to be generated:"))
+size=int(input("Enter size of passwords;"))
+print("The generated passwords are:")
 for i in range(num):
     passw =""
     for i in range(size):
